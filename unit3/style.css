@@ -1,13 +1,21 @@
 body {
-	background: roseybrown;
+	background: url("images/antiqueroses.jpg");
+	background-size: cover;
 }
 
 h1 {
-	font-size: 44px;
+	font-size: 90px;
 	font-weight: bold;
-	font-color: red;
+	color: white;
 }
 
 p {
-	font-color: blue;
+	color: white;
+}
+		
+hr {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+    color: orange;
 }
