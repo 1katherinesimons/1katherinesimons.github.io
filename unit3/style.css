@@ -2,38 +2,34 @@
 
 body {
 	background-image: url(Assets/background.jpg);
+	background-repeat:no-repeat;
 	background-size: cover;
-}
-
-h1 {
 	color: white;
-	text-align: left;
 	font-family: "Verdana", sans-serif;
 	font-size: 22px;
-	padding: 28px 0 28px 0;
 }
 
 hr {
 	width: 80px;
-	color: 255, 114, 116;
-	margin: 40px 0 0 0;
+	border-color: rgb(255,114,116);
+	margin: 10px 0;
 }
-
+p {
+	margin:0 0 10px 0;
+}
 .textblock {
-	margin: 175px 0 175px 50px;
+	margin: 175px 0 0 50px;
 }
 
 .logo {
-	width: 125px;
-	height: auto;
 }
 
 #appstorebutton {
-	width: 125px;
-	height: auto;
 }
 
 .stripes {
 	background-image: url(Assets/stripes.png);
 	background-repeat: repeat-x;
+	height:13px;
+	width:100%;
 }
