@@ -1,9 +1,8 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-image: url(Assets/background.jpg);
-	background-repeat:no-repeat;
-	background-size: cover;
+	background: url(Assets/stripes.png) repeat-x, url(Assets/background.jpg) no-repeat #525a6a;
+	background-size: auto, cover;
 	color: white;
 	font-family: "Verdana", sans-serif;
 	font-size: 22px;
@@ -18,18 +17,5 @@ p {
 	margin:0 0 10px 0;
 }
 .textblock {
-	margin: 175px 0 0 50px;
-}
-
-.logo {
-}
-
-#appstorebutton {
-}
-
-.stripes {
-	background-image: url(Assets/stripes.png);
-	background-repeat: repeat-x;
-	height:13px;
-	width:100%;
+	margin: 275px 0 0 150px;
 }
