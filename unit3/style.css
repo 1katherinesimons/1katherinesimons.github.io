@@ -1,7 +1,7 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	background-image: url("assets/background.jpg");
+	background-image: url(assets/background.jpg);
 	background-size: cover;
 }
 
@@ -19,12 +19,6 @@ hr {
 	margin: 40px 0 0 0;
 }
 
-header {
-	 background: url(assets/stripes.png);
-	 background-repeat: repeat-x;
-	 height: 10px;
-}
-
 .textblock {
 	margin: 175px 0 175px 50px;
 }
@@ -40,5 +34,6 @@ header {
 }
 
 .strips {
-	position: center;
+	background-image: url(assets/stripes.png);
+	background-repeat: repeat-x;
 }
