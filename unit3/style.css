@@ -25,7 +25,7 @@ header {
 	 height: 10px;
 }
 
-div {
+.textblock {
 	margin: 175px 0 175px 50px;
 }
 
@@ -37,4 +37,8 @@ div {
 #appstorebutton {
 	width: 125px;
 	height: auto;
+}
+
+.strips {
+	position: center;
 }
