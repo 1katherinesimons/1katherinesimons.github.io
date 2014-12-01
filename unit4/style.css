@@ -4,8 +4,45 @@ body {
 	font-family: 'Roboto Slab', serif;
 	background-image: url(wineglass.jpg);
 	background-size: cover;
+	color: rgb(255,255,255);
 }
 
 h1 {
 	font-family: 'Yellowtail', cursive;
+	font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+
+.textblock {
+	margin: 200px 0 0 150px;
+	max-width: 35%;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+p {
+	padding: 15px 0 15px 0;
+}
+
+input {
+  border: 0;
+  padding: 8px;
+  font-size: 1em;
+  font-family: 'Roboto Slab', serif;
+}
+
+input[type="submit"] {
+  background: #735d6e;
+  color: rgb(255,255,255) ;
 }
