@@ -2,30 +2,22 @@
 
 body {
 	font-family: 'Roboto Slab', serif;
-	font-size: 20px;
-	background-image: url(wineglass.jpg);
+	font-weight: 700px;
+	font-size: 23px;
+	background-image: url(wineglassesblackandwhite.jpg);
 	background-size: cover;
-	color: rgb(255,255,255);
+	color: #00A2B2;
 }
 
 h1 {
 	font-family: 'Yellowtail', cursive;
-	font-size: 4em;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    float: right;
+	font-size: 100em;
 }
 
 .textblock {
-	margin: 200px 0 0 150px;
-	max-width: 35%;
+	padding: 20px 500px 20px 200px;
+	margin: 100px 0 0 0;
+	background-color: rgb(255,255,255)
 }
 
 h1 {
@@ -34,6 +26,8 @@ h1 {
 
 p {
 	padding: 15px 0 15px 0;
+	font-weight: 70px;
+	max-width: 600px;
 }
 
 input {
@@ -43,6 +37,6 @@ input {
 }
 
 input[type="submit"] {
-  background: #735d6e;
+  background: #B24B00;
   color: rgb(255,255,255) ;
 }
