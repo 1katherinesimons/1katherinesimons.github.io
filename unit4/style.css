@@ -1,15 +1,23 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
-	font-family: 'Roboto Slab', serif;
-	font-weight: 700px;
-	font-size: 23px;
 	background-image: url(wineglassesblackandwhite.jpg);
 	background-size: cover;
 	color: #00A2B2;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 23px;
+}
+h1 {
+	font-size: 1.62em;
 }
 
-h1 {
+p {
+	padding: 15px 0 15px 0;
+	font-weight: 700;
+	max-width: 600px;
+}
+.logo {
 	font-family: 'Yellowtail', cursive;
 	font-size: 100em;
 }
@@ -17,26 +25,11 @@ h1 {
 .textblock {
 	padding: 20px 500px 20px 200px;
 	margin: 100px 0 0 0;
-	background-color: rgb(255,255,255)
+	background-color: rgba(255,255,255,.8)
+	max-width:auto;
 }
-
-h1 {
-	font-size: 1.62em;
-}
-
-p {
-	padding: 15px 0 15px 0;
-	font-weight: 70px;
-	max-width: 600px;
-}
-
-input {
-  border: 0;
-  padding: 8px;
-  font-family: 'Roboto Slab', serif;
-}
-
-input[type="submit"] {
-  background: #B24B00;
-  color: rgb(255,255,255) ;
+.reserve {
+	background:#B24B00;
+	display:block;
+	padding:8px;
 }
