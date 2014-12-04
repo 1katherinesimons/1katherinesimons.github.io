@@ -10,6 +10,7 @@ body {
 }
 nav {
 	float:right;
+	margin:20px;
 }
 nav a {
 	color:#fff;
