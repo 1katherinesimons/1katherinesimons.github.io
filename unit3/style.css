@@ -11,7 +11,7 @@ body {
 hr {
 	width: 80px;
 	border-color: rgb(255,114,116);
-	margin: 10px 0;
+	margin: 10px 0 10px 0;
 }
 p {
 	margin:0 0 10px 0;
@@ -19,3 +19,5 @@ p {
 .textblock {
 	margin: 275px 0 0 150px;
 }
+
+
