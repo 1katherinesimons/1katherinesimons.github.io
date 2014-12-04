@@ -11,6 +11,13 @@ body {
 nav {
 	float:right;
 }
+nav a {
+	color:#fff;
+	text-decoration:none;
+	font-weight:400;
+}
+nav a:hover {
+	text-decoration:underline;
 }
 h1 {
 	font-size: 1.62em;
@@ -23,8 +30,8 @@ p {
 .logo {
 	font-family: 'Yellowtail', cursive;
 	font-size: 3.24em;
+	float:left;
 	padding:0;
-	max-width:auto;
 }
 
 .textblock {
@@ -36,6 +43,15 @@ p {
 	color:#fff;
 	background:#B24B00;
 	display:block;
+	max-width:220px;
 	padding:8px;
-	width:auto;
+	text-align:center;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
